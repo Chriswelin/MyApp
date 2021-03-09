@@ -30,6 +30,11 @@ class Textfields extends Component {
         const {name, value} = event.target
         this.setState({ [name]: value })
     }
+
+    transmit(){
+
+
+    }
     
     render() {
         return (
@@ -42,6 +47,7 @@ class Textfields extends Component {
                         value={this.state.Age}
                         onChange={this.handleChange}
                     /> 
+                    <br/>
                     <input 
                         type="text"
                         name="Gender"
@@ -49,6 +55,7 @@ class Textfields extends Component {
                         value={this.state.Gender}
                         onChange={this.handleChange}
                     /> 
+                    <br/>
                      <input 
                         type="text"
                         name="Ethnicity"
@@ -56,98 +63,126 @@ class Textfields extends Component {
                         value={this.state.Ethnicity}
                         onChange={this.handleChange}
                     /> 
+                    <br/>
                     <input 
-                        type="text"
-                        name="Asthma"
-                        placeholder="Asthma"
+                        type="checkbox"
+                        name="Asthma" 
+                         
                         value={this.state.Asthma}
                         onChange={this.handleChange}
-                    />   
+                         
+                    /> 
+                    Asthma 
+                    <br/>
                     <input 
-                        type="text"
+                        type="checkbox"
                         name="Cardiovascular Disease"
-                        placeholder="Cardiovascular Disease"
+                       
                         value={this.state.CardiovascularDisease}
                         onChange={this.handleChange}
                     />   
+                    Cardiovascular Disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Chronic lung disease"
-                        placeholder="Chronic lung disease"
+                        
                         value={this.state.Chroniclungdisease}
                         onChange={this.handleChange}
                     />  
+                    Chronic lung disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Immune suppression"
-                        placeholder="Immune suppression"
+                       
                         value={this.state.Immunesuppression}
                         onChange={this.handleChange}
                     /> 
+                    Immune suppression
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Metabolic disease"
-                        placeholder="Metabolic disease"
+                       
                         value={this.state.Metabolicdisease}
                         onChange={this.handleChange}
                     />    
+                    Metabolic disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Neurological disease"
-                        placeholder="Neurological disease"
+                         
                         value={this.state.Neurologicaldisease}
                         onChange={this.handleChange}
-                    />                                                      
+                    />         
+                    Neurological disease    
+                    <br/>                                         
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Other disease"
-                        placeholder="Other disease"
+                        
                         value={this.state.Otherdisease}
                         onChange={this.handleChange}
                     />  
+                    Other disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Autoimmune disease"
-                        placeholder="Autoimmune disease"
+                      
                         value={this.state.Autoimmunedisease}
                         onChange={this.handleChange}
                     /> 
+                    Autoimmune disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Obesity"
-                        placeholder="Obesity"
+                        
                         value={this.state.Obesity}
                         onChange={this.handleChange}
                     /> 
+                    Obesity
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Pregnancy"
-                        placeholder="Pregnancy"
+                   
                         value={this.state.Pregnancy}
                         onChange={this.handleChange}
                     />  
+                    Pregnancy
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Renal disease"
-                        placeholder="Renal disease"
+                        
                         value={this.state.Renaldisease}
                         onChange={this.handleChange}
                     /> 
+                    Renal disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Gastrointestinal/liver disease"
-                        placeholder="Gastrointestinal/liver disease"
+                        
                         value={this.state.Gastrointestinalliverdisease}
                         onChange={this.handleChange}
                     /> 
+                    Gastrointestinal/liver disease
+                    <br/>
                      <input 
-                        type="text"
+                        type="checkbox"
                         name="Hypertension"
-                        placeholder="Hypertension"
+                       
                         value={this.state.Hypertension}
                         onChange={this.handleChange}
-                    />                                                                                                                    
-                    <button>Go</button>
+                    />       
+                    Hypertension    
+                    <br/>                                                                                                         
+                    <button    >Go</button>
                 </form>
             </div>
         )

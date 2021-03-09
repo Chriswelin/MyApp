@@ -13,7 +13,7 @@ function App() {
         <img className = "image" src={img}/>          
         <Main />
         <Textfields />
-        <Footer />
+ 
     </div>
   );
 }
