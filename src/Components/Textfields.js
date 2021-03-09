@@ -6,8 +6,9 @@ class Textfields extends Component {
         this.state = {
             Age: "",
             Gender: "",
+            Ethnicity: "",
  
-            ReturnedData: []
+            ReturnedData: {}
         }
         this.handleChange = this.handleChange.bind(this)
     }

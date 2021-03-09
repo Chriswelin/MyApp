@@ -1,5 +1,5 @@
-
  
+
 .header {
   background-color: #282c34;
   display: flex;
@@ -20,6 +20,7 @@
   font-style: large; 
   font-family: source-sans-pro;
   letter-spacing: 2px;
+  /*font-weight: 300;*/
 }
 
 .image{
@@ -45,7 +46,7 @@
 }
 
 body {
-	font-family: source-sans-pro;
+   font-family: source-sans-pro;
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -88,4 +89,5 @@ button {
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
+  font-family: 'Source Sans Pro', sans-serif;	
  */
